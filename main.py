@@ -5,7 +5,7 @@ from models.item_model import ItemModel
 from fakeDb.fake_db import fake_db
 from models.response_model import ResponseModel
 
-app = FastAPI(title= "Mi Servicio REST")
+app = FastAPI(title= "FastApi+Docker by Nathan")
 
 @app.get("/")
 async def home():
